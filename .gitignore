@@ -1,0 +1,13 @@
+#virtualenv
+/venv
+#build
+/build
+
+#pychar metadata
+.idea/
+
+.pyc
+*.pyo
+.cpython
+__pycache__/
+/test/.pytest_cache
