@@ -10,6 +10,6 @@ This repository contains [Viper](https://github.com/viper-framework) modules
 
 **How it works?**
 
-![Workflow](./images/workflow.jpg)
+![Workflow](./images/malware_triage_workflow.jpg)
 
    
