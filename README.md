@@ -190,7 +190,7 @@ There are also more samples using the same [JA3 fingerprint](https://github.com/
 ### 5. Send info to MISP
 
 ```bash
-viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > misp create_event --info "flubot campaign"
+viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > misp create_event --info "joker campaign"
 ```
 ```bash
 viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > misp add_hashes
