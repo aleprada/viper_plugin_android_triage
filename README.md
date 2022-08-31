@@ -196,6 +196,6 @@ viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > mis
 viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > misp add_hashes
 ```
 
-Now we have the event created on MISP, and we can go ahead and add some attributes with the viper cli
+The event has been created on MISP, and we can go ahead and add some attributes with the viper cli
 or just go to the MISP web, and add some attributes manually. We can also add the hashes of the samples discovered
 in step 4.
