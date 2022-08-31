@@ -4,7 +4,7 @@
 [Viper](https://github.com/viper-framework) is a binary
 analysis and management framework developed by [Claudio Guarnieri](https://twitter.com/botherder) aka Nex. 
 The aim of Viper is to provide an easy solution for organising malware and exploit samples.
-Viper also makes easy to integrate your collection of scripts via Viper modules. 
+Viper also makes it easy to integrate your collection of scripts via Viper modules. 
 
 This repository contains viper modules for helping threat intelligence analysts 
 to triage android applications and to complement other viper modules that can be
@@ -21,7 +21,7 @@ strings.
 * **malwarebazaar**: This module makes a request with the md5 of the apk to [MalwareBazaar](https://bazaar.abuse.ch/) 
 API.
 * **yarandroid**: This module decompresses the apk using [apktool](https://ibotpeaches.github.io/Apktool/), and it runs 
-your collection of yara rules over the files decompressed.
+your collection of Yara rules over the files decompressed.
 
 ## Workflow
 
@@ -74,10 +74,10 @@ viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > yar
 
 ![step2](./images/step2a_yara_workflow.jpg)
 
-Yara has several hits, including the libjiagu packer. This information could be useful in case
+Yara returns several hits, including the libjiagu packer. This information could be useful in case
 of needing to unpack the sample.
 
-After running Yara, we will check how the APK as made. We will use apkid which is able to indentify many compilers, 
+After running Yara, we will check how the APK is made. We will use apkid which is able to identify many compilers, 
 packers and obfuscators.
 
 ```bash
@@ -198,4 +198,4 @@ viper 605fb275c53ab8ca40763762289deb723a826b17326d8c4d6803925b6870c090.apk > mis
 
 Now we have the event created on MISP, and we can go ahead and add some attributes with the viper cli
 or just go to the MISP web, and add some attributes manually. We can also add the hashes of the samples discovered
-at step 4.
+in step 4.
